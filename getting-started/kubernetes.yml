@@ -28,7 +28,7 @@ metadata:
     app.kubernetes.io/version: latest
   name: test
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app.kubernetes.io/name: test
